@@ -1,0 +1,6 @@
+name: cs348
+services:
+  project:
+    build: .
+    volumes:
+      - .:/app
